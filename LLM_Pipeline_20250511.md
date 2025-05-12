@@ -31,6 +31,18 @@ Generate a synthetic patient dataset with the following specifications:
     - 65–74: 12%
     - 75–84: 6%
     - 85+: 3%
+      
+#### Chief Complaint and Medical History Assignment
+- **chief_complaint**: One of the top 15 most common symptoms in clinical settings, randomly assigned:
+    - Fever, Cough, Headache, Chest Pain, Shortness of Breath, Back Pain, Abdominal Pain, Fatigue, Nausea, Dizziness, Sore Throat, Joint Pain, Skin Rash, Diarrhea, Anxiety.
+
+- **duration**: The duration of the symptoms, categorized as:
+    - Acute (60%)
+    - Subacute (25%)
+    - Chronic (15%)
+
+- **medical_history**: One of the top 15 most common medical histories or "No History," with realistic distributions:
+    - Hypertension: 10%, Diabetes: 8%, Asthma: 6%, Allergy: 6%, Arthritis: 5%, Heart Disease: 5%, Depression: 4%, COPD: 3%, Kidney Disease: 3%, Stroke: 2%, Cancer: 2%, Obesity: 5%, Migraine: 3%, Thyroid Disorder: 2%, No History: 36%.
 
 #### Age Group Assignment
 - Ages should be randomly selected within each group, weighted according to the distribution:
