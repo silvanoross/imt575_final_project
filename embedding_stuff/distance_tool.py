@@ -1,4 +1,5 @@
 import pandas as pd
+import torchvision
 import numpy as np
 from transformers import AutoTokenizer, AutoModel
 import torch
